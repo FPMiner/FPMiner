@@ -126,25 +126,52 @@
 
 # Examples
 
-<table class="tg">
+<table>
   <tr>
-    <th class="tg-0pky">Story<br></th>
-    <th class="tg-0pky">Actual FP List</th>
-    <th class="tg-0pky">Recommendation FP List/Confidence</th>
+    <th>Story<br></th>
+    <th>Actual FP List</th>
+    <th>Recommendation FP List</th>
+    <th>Confidence</th>
   </tr>
   <tr>
-    <td class="tg-0pky">作为系统管理员，我希望将新的客户信息添加到系统中，以便于管理客户信息。客户基本信息除备注外均为必填项，联系方式信息应至少包含一种有效联系方式。添加过程中会验证身份证号是否重复，如果重复会提示<br>As a system administrator, I want to add new customer's information to the system to manage customer's information. The customer's basic information is required except for the remarks. The contact information should contain at least one valid contact method. During the adding process, it will verify whether the ID number is duplicated. If it is repeated, it will prompt.</td>
-    <td class="tg-0pky">添加客户信息<br>Add customer's information</td>
-    <td class="tg-0pky">客户信息添加/-1.127306858698527<br>Add customer's information</td>
+    <td>作为系统管理员，我希望将新的客户信息添加到系统中，以便于管理客户信息。客户基本信息除备注外均为必填项，联系方式信息应至少包含一种有效联系方式。添加过程中会验证身份证号是否重复，如果重复会提示<br>As a system administrator, I want to add new customer's information to the system to manage customer's information. The customer's basic information is required except for the remarks. The contact information should contain at least one valid contact method. During the adding process, it will verify whether the ID number is duplicated. If it is repeated, it will prompt.</td>
+    <td>添加客户信息<br>Add customer's information</td>
+    <td>客户信息添加<br>Add customer's information</td>
+    <td>-1.127306858698527</td>
   </tr>
   <tr>
-    <td class="tg-0pky">作为系统管理员，我希望显示客户信息列表，对选中的客户显示并维护其基本信息。以便于对选中的客户显示并维护其基本信息。<br>修改前需要验证系统管理员密码。<br>As a system administrator, I want to display a list of customer information, display and maintain basic information about selected customers, so that I can display and maintain basic information about selected customers.<br>The system administrator password needs to be verified before modification.<br></td>
-    <td class="tg-0pky">维护客户基本信息<br>Maintain customer's basic information<br><br>显示客户信息<br>Display customer's information</td>
-    <td class="tg-0pky">基本信息维护/-0.9490731557210287<br>Maintain basic information<br><br>系统管理员修改/-1.140566280909947<br>System administrator modification <br> <br>基本信息显示/-1.2586131890614827<br>Display basic information<br><br>信息列表显示/-1.4162368774414062<br>Display basic information list</td>
+    <td rowspan="5">作为系统管理员，我希望显示客户信息列表，对选中的客户显示并维护其基本信息。以便于对选中的客户显示并维护其基本信息。<br>修改前需要验证系统管理员密码。<br>As a system administrator, I want to display a list of customer information, display and maintain basic information about selected customers, so that I can display and maintain basic information about selected customers.<br>The system administrator password needs to be verified before modification.<br></td>
+    <td>维护客户基本信息<br>Maintain customer's basic information<br><br><br></td>
+    <td rowspan="2">基本信息维护<br>Maintain basic information<br></td>
+    <td rowspan="2">-0.9490731557210287</td>
   </tr>
   <tr>
-    <td class="tg-0pky">作为系统管理员，我希望输入客户姓名或联系方式，显示查询结果，以便于我查询特定的客户。<br>如果多名用户符合查询条件，则全部显示。<br>As a system administrator, I want to enter the customer's name or contact information to display the results of the query so that I can query a specific customer.<br>If multiple users meet the query criteria, they are all displayed.<br></td>
-    <td class="tg-0pky">客户查询<br>Query customer</td>
-    <td class="tg-0pky">客户查询/-1.1395772695541382<br>Query customer<br><br>查询结果显示/-1.5421965916951497<br>Display query result<br> <br>客户姓名输入/-1.7091108957926433<br>Enter customer's name</td>
+    <td rowspan="4">显示客户信息<br>Display customer's information</td>
+  </tr>
+  <tr>
+    <td>系统管理员修改<br>System administrator modification</td>
+    <td>-1.140566280909947</td>
+  </tr>
+  <tr>
+    <td>基本信息显示<br>Display basic information</td>
+    <td>-1.2586131890614827</td>
+  </tr>
+  <tr>
+    <td>信息列表显示<br>Display basic information list</td>
+    <td>-1.4162368774414062</td>
+  </tr>
+  <tr>
+    <td rowspan="3">作为系统管理员，我希望输入客户姓名或联系方式，显示查询结果，以便于我查询特定的客户。<br>如果多名用户符合查询条件，则全部显示。<br>As a system administrator, I want to enter the customer's name or contact information to display the results of the query so that I can query a specific customer.<br>If multiple users meet the query criteria, they are all displayed.<br></td>
+    <td rowspan="3">客户查询<br>Query customer</td>
+    <td>客户查询<br>Query customer<br></td>
+    <td>-1.1395772695541382</td>
+  </tr>
+  <tr>
+    <td>查询结果显示<br>Display query result</td>
+    <td>-1.5421965916951497</td>
+  </tr>
+  <tr>
+    <td>客户姓名输入<br>Enter customer's name</td>
+    <td>-1.7091108957926433</td>
   </tr>
 </table>
