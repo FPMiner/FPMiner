@@ -126,6 +126,9 @@
 
 # Examples
 
+### We generate some examples and display the results derived from our model below. 
+### The four cloumns indicate generated stories text, actual function points, predicated function points and the corresponding confidence socres respectively.
+
 <table>
   <tr>
     <th>Story<br></th>
